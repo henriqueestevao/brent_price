@@ -14,6 +14,8 @@ Original file is located at
 '''
 # Commented out IPython magic to ensure Python compatibility.
 # Bibliotecas básicas de data science
+
+'''
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,6 +25,7 @@ import plotly.graph_objects as go
 # Para baixar os dados
 import yfinance as yf
 
+''''
 
 #Para aplicar o ARIMA:
 from statsmodels.tsa.stattools import adfuller          #verificar dados estacionários
