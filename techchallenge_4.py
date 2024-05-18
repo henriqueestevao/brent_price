@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1xHyhS7xYwSHL1e_bUYWCJEwRyTxTdgQi
 """
 
-!pip uninstall -y fbprophet
 !pip uninstall -y pystan
 !pip install Cython numpy pandas matplotlib LunarCalendar convertdate holidays setuptools-git python-dateutil tqdm
 !pip install pystan==3.2.0  # Versão compatível
