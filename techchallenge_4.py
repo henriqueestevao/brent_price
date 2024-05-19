@@ -25,7 +25,7 @@ import plotly.graph_objects as go
 # Para baixar os dados
 import yfinance as yf
 
-''''
+'''
 
 #Para aplicar o ARIMA:
 from statsmodels.tsa.stattools import adfuller          #verificar dados estacionários
