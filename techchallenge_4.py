@@ -11,6 +11,26 @@ from keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
 import yfinance as yf
 
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+import yfinance as yf
+from statsmodels.tsa.stattools import adfuller, acf, pacf
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.arima.model import ARIMA
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.optimizers import Adam
+from keras.preprocessing.sequence import TimeseriesGenerator
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.model_selection import train_test_split
+from prophet import Prophet
+import warnings
+warnings.filterwarnings('ignore')
+
+
 # Função para carregar dados
 @st.cache
 def load_data():
