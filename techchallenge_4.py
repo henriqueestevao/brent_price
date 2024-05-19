@@ -53,7 +53,7 @@ from prophet import Prophet
 
 """#Upload do DataFrame"""
 
-import yfinance as yf
+#import yfinance as yf
 
 # Especifique o símbolo do Brent Crude Oil Last Day Financ (BZ=F) e o intervalo de datas desejado
 symbol = 'BZ=F'
