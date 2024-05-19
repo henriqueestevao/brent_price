@@ -22,7 +22,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
-from keras.preprocessing.sequence import TimeseriesGenerator
+from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
